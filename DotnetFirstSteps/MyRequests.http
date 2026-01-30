@@ -7,8 +7,8 @@ content-type: application/json
 {
     "id": 1,
     "name": "Make a tea",
-    "dueDate": "2024-12-31T00:00:00",
-    "isCompleted": false
+    "dueDate": "2026-12-31",
+    "isCompleted": true
 }
 
 ###
