@@ -1,21 +1,21 @@
 GET http://localhost:5167/todos
 
 ###
-
 POST http://localhost:5167/todos
 content-type: application/json
 
 {
-    "id": 2,
+    "id": 1,
     "name": "Make a tea",
     "dueDate": "2024-12-31T00:00:00",
     "isCompleted": false
 }
 
 ###
-
 GET http://localhost:5167/todos/2
 
 ###
-
 DELETE http://localhost:5167/todos/2
+
+###
+GET http://localhost:5167/tasks/1
